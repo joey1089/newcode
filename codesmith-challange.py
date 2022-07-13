@@ -1,3 +1,4 @@
+#This is code was in JavaScript , now its converted to Python
 # // If you're having trouble, use lines 12-14 for expected inputs and outputs
 CONST_PHONEBOOK = {};
 CONST_NAMES = ['Mira', 'Royce', 'Kathie'];
