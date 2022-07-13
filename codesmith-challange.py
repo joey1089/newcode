@@ -6,10 +6,10 @@ CONST_NUMBERS = ['3234958675', '9164059384', '4154958675']
 # // Write your code below this line
 for name in CONST_NAMES:
     print(name)
-    if CONST_PHONEBOOK is Empty:
-        CONST_PHONEBOOK = name
-    else:
+    if any(CONST_PHONEBOOK):
         CONST_PHONEBOOK += name
+    else:
+        CONST_PHONEBOOK = name
 
 
 
