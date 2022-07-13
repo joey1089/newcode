@@ -8,7 +8,7 @@ CONST_NUMBERS = ['3234958675', '9164059384', '4154958675']
 for name,numbers in zip(CONST_NAMES,CONST_NUMBERS):
     CONST_PHONEBOOK[name] = numbers
 
-print(CONST_PHONEBOOK)
+# print(CONST_PHONEBOOK)
 
 
 # //Uncomment the lines below to test your code
