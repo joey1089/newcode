@@ -3,10 +3,11 @@ let counter = 0
 function recursive(){
     if (counter === 3) return "Done!"
     counter++;
+    console.log(counter)
     return recursive()
 }
 
-recursive()
+console.log(recursive())
 // Codesmith and youtuber recursive logics learnt
 //CodeSmith method of recursive logic
 // counter = 0
